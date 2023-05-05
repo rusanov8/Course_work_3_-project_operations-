@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "project-operations"
+version = "0.1.0"
+description = ""
+authors = ["rusanov <rusanov.egor@bk.ru>"]
+readme = "README.md"
+packages = [{include = "project_operations"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.3.1"
+pytest-cov = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
